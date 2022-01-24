@@ -47,7 +47,7 @@ public class BaseClass {
 		else if(br.equals("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver",readconfig.getFirefoxPath());
-			driver = new FirefoxFilter();
+			driver = new FirefoxFilter()
 		}
 		else if(br.equals("ie"))
 		{
